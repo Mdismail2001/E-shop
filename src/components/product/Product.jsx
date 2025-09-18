@@ -1,11 +1,15 @@
 import React from 'react';
+import { GiSelfLove } from "react-icons/gi";
 
-const Product = ({products}) => {
+const Product = ({products, handleBidBtn}) => {
     // console.log(products)
     return (
         <div className='w-[70%]'>
-            <table className="table-auto border-collapse border border-gray-400 w-full">
+            <h1 className='text-3xl'>Active auctions</h1>
+            <p className='mt-3'>Discover and bid on extraordinary items</p>
+
             {/* Table Header (only once) */}
+            <table className="table-auto border-collapse border border-gray-400 w-full mt-5">
             <thead>
                 <tr className="bg-gray-500">
                 <th className="border border-gray-400 px-4 py-2">Items</th>
@@ -41,8 +45,8 @@ const Product = ({products}) => {
 
                     {/* Bid Now (you can add a button or icon here) */}
                     <td className="border border-gray-400 px-4 py-2">
-                    <button className="bg-blue-500 text-white px-3 py-1 rounded">
-                        Bid Now
+                    <button onClick={() => handleBidBtn(product)} className=" text-white px-3 py-1 rounded">
+                        <GiSelfLove />
                     </button>
                     </td>
                 </tr>
