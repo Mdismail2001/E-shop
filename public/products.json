@@ -6,7 +6,7 @@
     "currentBidPrice": 150.0,
     "timeLeft": "2h 15m",
     "bidsCount": 12,
-    "image": "https://i.ibb.co/4fJ7P8r/vintage-camera.jpg"
+    "image": "/src/assets/Bid1-min.png"
   },
   {
     "id": "bid-002",
@@ -15,7 +15,7 @@
     "currentBidPrice": 950.0,
     "timeLeft": "5h 42m",
     "bidsCount": 25,
-    "image": "https://i.ibb.co/6Hc1B9t/gaming-laptop.jpg"
+    "image": "/src/assets/Bid2-min.png"
   },
   {
     "id": "bid-003",
@@ -24,7 +24,7 @@
     "currentBidPrice": 320.5,
     "timeLeft": "1h 05m",
     "bidsCount": 18,
-    "image": "https://i.ibb.co/92M5zQc/luxury-watch.jpg"
+    "image": "/src/assets/Bid3-min.png"
   },
   {
     "id": "bid-004",
@@ -33,7 +33,7 @@
     "currentBidPrice": 480.0,
     "timeLeft": "8h 30m",
     "bidsCount": 9,
-    "image": "https://i.ibb.co/ZKybkGx/mountain-bike.jpg"
+    "image": "/src/assets/Bid4-min.png"
   },
   {
     "id": "bid-005",
@@ -42,7 +42,7 @@
     "currentBidPrice": 720.0,
     "timeLeft": "3h 20m",
     "bidsCount": 31,
-    "image": "https://i.ibb.co/mR91d7Q/smartphone.jpg"
+    "image": "/src/assets/Bid5-min.png"
   },
   {
     "id": "bid-006",
@@ -51,6 +51,6 @@
     "currentBidPrice": 275.0,
     "timeLeft": "6h 10m",
     "bidsCount": 14,
-    "image": "https://i.ibb.co/R9Lz9hW/electric-guitar.jpg"
+    "image": "/src/assets/Bid6-min.png"
   }
 ]
