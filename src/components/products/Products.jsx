@@ -20,19 +20,21 @@ useEffect(()=>{
 const handleBidBtn =(product)=>{         
 // console.log( product)
     setFavorite([...favorite , product])
+    alert("add to favorite")
     // console.log(favorite)
 }
 
 // favorite remove function
 const removeBtn =(id)=>{
-    // console.log("remove button added", id)
-const remainingFavorite = favorite.filter(favorite =>favorite.id !==id )
-    setFavorite(remainingFavorite)
+    // console.log("remove button added", id);
+const remainingFavorite = favorite.filter(favorite =>favorite.id !==id );
+    setFavorite(remainingFavorite);
+    alert("Remove successful");
 
-}                                   
+};                                   
 
     return (
-        <div className='w-11/12 mx-auto mt-10  '> 
+        <div className='w-11/12 mx-auto mt-10 mb-10 '> 
             <div className="flex gap-5">
                 {/* product table */}
                  <Product products={products}
