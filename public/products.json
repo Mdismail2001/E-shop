@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bid-001",
+    "title": "Vintage Camera",
+    "description": "A rare 1960s vintage film camera in excellent condition.",
+    "currentBidPrice": 150.0,
+    "timeLeft": "2h 15m",
+    "bidsCount": 12,
+    "image": "https://i.ibb.co/4fJ7P8r/vintage-camera.jpg"
+  },
+  {
+    "id": "bid-002",
+    "title": "Gaming Laptop",
+    "description": "High-performance gaming laptop with RTX graphics and 16GB RAM.",
+    "currentBidPrice": 950.0,
+    "timeLeft": "5h 42m",
+    "bidsCount": 25,
+    "image": "https://i.ibb.co/6Hc1B9t/gaming-laptop.jpg"
+  },
+  {
+    "id": "bid-003",
+    "title": "Luxury Watch",
+    "description": "Elegant men’s wristwatch with leather strap and sapphire glass.",
+    "currentBidPrice": 320.5,
+    "timeLeft": "1h 05m",
+    "bidsCount": 18,
+    "image": "https://i.ibb.co/92M5zQc/luxury-watch.jpg"
+  },
+  {
+    "id": "bid-004",
+    "title": "Mountain Bike",
+    "description": "Durable mountain bike with 21-speed gears, perfect for off-road trails.",
+    "currentBidPrice": 480.0,
+    "timeLeft": "8h 30m",
+    "bidsCount": 9,
+    "image": "https://i.ibb.co/ZKybkGx/mountain-bike.jpg"
+  },
+  {
+    "id": "bid-005",
+    "title": "Smartphone",
+    "description": "Latest model smartphone with 5G connectivity and 128GB storage.",
+    "currentBidPrice": 720.0,
+    "timeLeft": "3h 20m",
+    "bidsCount": 31,
+    "image": "https://i.ibb.co/mR91d7Q/smartphone.jpg"
+  },
+  {
+    "id": "bid-006",
+    "title": "Electric Guitar",
+    "description": "Classic electric guitar with maple neck and sunburst finish.",
+    "currentBidPrice": 275.0,
+    "timeLeft": "6h 10m",
+    "bidsCount": 14,
+    "image": "https://i.ibb.co/R9Lz9hW/electric-guitar.jpg"
+  }
+]
