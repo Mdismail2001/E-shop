@@ -3,6 +3,7 @@ import { GiSelfLove } from "react-icons/gi";
 
 import Product from '../product/Product';
 import Favorite from '../favorite/Favorite';
+import Chart from '../chart/Chart';
 const Products = () => {
     const [products, setProducts]= useState([]); // this is for api
     const [favorite, setFavorite]= useState([]); // this is for bid btn to show favorite items
@@ -51,7 +52,8 @@ const remainingFavorite = favorite.filter(favorite =>favorite.id !==id );
                                                          ></Favorite>)                            
                         }
                  </div>   
-            </div>
+            </div>         
+                 <Chart products={products} key={products.id}></Chart>
         </div>
     );
 };
